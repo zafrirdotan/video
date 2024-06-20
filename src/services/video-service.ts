@@ -9,7 +9,7 @@ export function getVideo(): Promise<string> {
 
     setTimeout(() => {
       resolve(mockUrl);
-    }, getRandomSecondes(1, 1));
+    }, getRandomSecondes(1, 30));
   });
 }
 
